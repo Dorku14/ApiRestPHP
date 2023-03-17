@@ -1,2 +1,5 @@
+Maded by Alexis Dorantes.
+Created date: 15/03/23.
+
 To be able to use the project it is necessary to install XAMPP which is a local Apache and Mysql server, 
 once installed place the folder "ApiRest" in the path C:\xampp\htdocs, then it is necessary to start the Apache and Mysql servers of the XAMPP application.
