@@ -43,45 +43,6 @@ let tablaContactos;
            
         });
         return tabla;
-      // $.ajax({
-      //   url: "http://localhost/ApiRest/Backend/API/ContactoAPI.php",
-      //   type: "GET",
-      //   data: JSON.stringify({
-      //       Direccion:"AlexisDorantes",
-      //       Direccion: "calle 45 x 20 y 22",
-      //       Telefono:"9999",
-      //       Email:"alex@hotmail.com"
-      //   }),
-      //   dataType: "json",
-      //   contentType: "application/json",
-      // }).done((result) => {
-      //   $('#myTable').DataTable( {
-      //     columns: [
-      //       { data: 'ID_Contacto' },
-      //       { data: 'Nombre' },
-      //       { data: 'Direccion' },
-      //       { data: 'Telefono' },
-      //       { data: 'Email' },
-      //       { data: 'Acciones' }
-      //       ],
-      //     columnDefs: [{
-      //       "defaultContent": "-",
-      //       "targets": "_all",
-      //        "className": 'dt-body-right',
-      //        render: function ( data, type, columns,meta ) {
-      //         //debugger
-              
-      //         if(!data && meta.col === 5){
-      //           let field = "<button class=\"btn btn-danger\" onclick=\"eliminarRegistro("+columns.ID_Contacto+")\">Eliminar</button> <button class=\"btn btn-primary\" onclick=\"editaContacto("+columns.ID_Contacto+")\" >Editar</button>";
-      //           return field;
-      //         }
-      //        return data
-      //     }
-      //        }],
-      //        data: result
-      //     });
-
-      // }); 
     }
 
     function eliminarRegistro(ID_Contacto){
